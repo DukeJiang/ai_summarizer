@@ -8,15 +8,15 @@ const Hero = () => {
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
         <img src={logo} alt='duke_logo' className='w-28 object-contain' />
 
-        {/* <button
+        <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://github.com/DukeJiang/ai_summarizer", "_blank")
           }
           className='black_btn'
         >
           GitHub
-        </button> */}
+        </button>
       </nav>
 
       <h1 className='head_text'>
